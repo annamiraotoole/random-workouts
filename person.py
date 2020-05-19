@@ -1,5 +1,7 @@
 
-import random
+
+import os
+
 import sys
 
 import move
@@ -7,8 +9,8 @@ import move
 
 class Person():
 
-    name = None
-    fitness = None # how many deltas above the base number of reps for each exercise
+    # name = None
+    # fitness = None # how many deltas above the base number of reps for each exercise
 
     def __init__(self, name, fitness):
         self.name = name
